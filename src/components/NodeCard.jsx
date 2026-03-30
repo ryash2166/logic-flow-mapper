@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { IconPlus, IconLink, IconTrash, IconChevron, IconX, IconWarning } from '../icons';
 
 const s = {
-  wrap: { position: 'relative', marginBottom: 8 },
+  wrap: { position: 'relative', marginBottom: 8, minWidth: 280 },
 
   card: (isCycle, depth) => ({
     background: isCycle ? '#FDF0EE' : '#FFFFFF',
